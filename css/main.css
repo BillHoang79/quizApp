@@ -1,14 +1,33 @@
-body{
-	color: #0000ff;
-	background-color: yellow;
+body {
+	background-color: #7fff00;
+	font-family: 'Delius Unicase', cursive;
 }
 
-.remove{
-	display: none;
+h1 {
+	text-align: center;
 }
 
-body .li:hover {
-    visibility: visible;
+h2 #correct, h2 #incorrect {
+	width: 250px;
 }
 
+.incorrect {
+	color: #ff0000; /**red */
+}
 
+.correct {
+	color: #008000; /* green */
+}
+
+input {
+	padding: 7px 40px;
+	border-radius: 20px 0px;
+}
+
+button {
+	padding: 5px 5px;
+	border-radius: 20px 0px;
+	background-color: #dc143c;
+	color: #fff8dc;
+	font-weight: bold;
+}
