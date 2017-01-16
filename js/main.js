@@ -21,8 +21,8 @@ var quizArray = [
 		answer: "google"
 	},
 	{
-		question: "The current season The Simpsons' is on?",
-		answer: "28"
+		question: "Who invited Javascript?",
+		answer: "brendan eich"
 	},
 	{
 		question: "Java------ is cool!!",

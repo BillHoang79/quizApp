@@ -5,16 +5,16 @@
 		<meta name="Bill Hoang" content="template">
 		<link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
     	<link rel="stylesheet" type="text/css" href="css/main.css">
-    	<link rel="	stylesheet" type= "text/css" href="css/animate.css">
+    	<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<title></title>
 	</head>
 	<body>
 		<div>
-			<h1> Simple Quiz App</h1>
-			<h1 class="correct">correct: <span id="correct"></span></h1>
-			<h1 class="incorrect">incorrect: <span id="incorrect"></span></h1>
+			<h1 class="animated fadeInLeft"> Simple Quiz App</h1>
+			<h1 class="animated fadeInRight correct">correct: <span id="correct"></span></h1>
+			<h1 class="animated fadeInLeft incorrect" id="delay">incorrect: <span id="incorrect"></span></h1>
 		</div>
-		<div>
+		<div class="animated fadeIn container">
 			<h2 id="question0"></h2>
 			<input id="answer0" type="text">
 			<h2 id="question1"></h2>
@@ -28,7 +28,7 @@
 			<h2 id="question5"></h2>
 			<input id="answer5" type="text">
 			<h2 id="question6"></h2>
-			<input id="answer6" type="text">
+			<input id="answer6" type="text"><br>
 
 			<button type="button" onclick="getInfo()">Click Here</button>
 		</div>

@@ -1,33 +1,63 @@
 body {
-	background-color: #7fff00;
+	background-color: #00ffff; 
 	font-family: 'Delius Unicase', cursive;
 }
 
-h1 {
+h1 { 
+	color: #fff;
 	text-align: center;
+	text-shadow: 2px 2px #000;
 }
 
 h2 #correct, h2 #incorrect {
 	width: 250px;
+
 }
 
 .incorrect {
 	color: #ff0000; /**red */
+	text-shadow: 2px 2px #000;
+
 }
 
 .correct {
 	color: #008000; /* green */
+	text-shadow: 2px 2px #000;
 }
 
 input {
 	padding: 7px 40px;
-	border-radius: 20px 0px;
+	border-radius: 20px 20px;
+	outline: 20px;
+	box-shadow: 3px 3px;
 }
 
 button {
+	margin-top: 10px;
 	padding: 5px 5px;
-	border-radius: 20px 0px;
-	background-color: #dc143c;
+	border-radius: 10px 10px;
+	background-color: #ff0000;
 	color: #fff8dc;
 	font-weight: bold;
+}
+
+button:hover {
+	background-color: #000;
+	transition: .05s;
+}
+
+.container {
+	-webkit-animation-delay: 1.6s !important;
+	margin: auto 0;
+	text-align: center;
+}
+
+/* CSS Animations */
+
+.fadeInRight{
+	-webkit-animation-delay: 0.4s !important;
+}
+
+#delay {
+	-webkit-animation-delay: 0.9s !important;
 }
